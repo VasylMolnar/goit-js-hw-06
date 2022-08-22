@@ -19,8 +19,8 @@ btnCreate.addEventListener('click', () => {
         const createDiv = document.createElement('div');
 
         createDiv.style.backgroundColor = getRandomHexColor();
-        createDiv.style.width = i * 10 + 30 + 'px';
-        createDiv.style.height = i * 10 + 30 + 'px';
+        createDiv.style.width = i * 10 + 20 + 'px';
+        createDiv.style.height = i * 10 + 20 + 'px';
 
         items.push(createDiv);
     }
