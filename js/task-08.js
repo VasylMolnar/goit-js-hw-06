@@ -14,11 +14,11 @@ const formSubmit = form.addEventListener('submit', event => {
 
     if (email.value == '' || password.value == '') {
         return window.alert('Всі поля повинні бути заповнені.');
-    } else {
-        elForm.email = email.value;
-        elForm.password = password.value;
-    }
-
+    } 
+    
+    elForm.email = email.value;
+    elForm.password = password.value;
+    
     event.currentTarget.reset();
     console.log(`Email: ${elForm.email}, Password: ${elForm.password}`);
 });
